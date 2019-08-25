@@ -1,0 +1,5 @@
+<launch>
+    <node name="launchpad" pkg="launchpad" type="launchpad_node" output="screen" args="/dev/ttyACM0 9600">
+        <rosparam command="load" file="$(find launchpad)/cfg/launchpad.yaml" />
+    </node>
+</launch>

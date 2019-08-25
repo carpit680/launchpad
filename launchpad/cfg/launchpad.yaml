@@ -1,0 +1,5 @@
+rate: 30.0
+data_size: 4
+start_delimitter: "["
+end_delimitter: "]"
+pub_topic: "/ultrasonic/range"
